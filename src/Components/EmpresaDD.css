@@ -1,0 +1,22 @@
+.empresa {
+    display: inline-block;
+    position: absolute;
+    box-sizing: border-box;
+    border: 1px solid #808080;
+    border-radius: 10px;
+    width: 7rem;
+    font-size: 13px;
+    left: 25%;
+    top: 3.5rem;
+    text-align: start;
+    padding-left: 10px;
+    backdrop-filter: blur(15px);
+}
+
+@media (max-width: 950px){
+    .empresa{
+        z-index: 2;
+        top: 45%;
+        left: 13%;
+    }
+}

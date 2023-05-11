@@ -1,0 +1,23 @@
+.saibaMais{
+    display: inline-block;
+    position: absolute;
+    box-sizing: border-box;
+    border: 1px solid #808080;
+    border-radius: 10px;
+    width: 10rem;
+    font-size: 13px;
+    left: 15%;
+    top: 3rem;
+    text-align: start;
+    padding-left: 15px;
+    backdrop-filter: blur(15px);
+}
+
+@media (max-width: 950px){
+    .saibaMais{
+        z-index: 2;
+        top: 35%;
+        left: 8%;
+    }
+}
+

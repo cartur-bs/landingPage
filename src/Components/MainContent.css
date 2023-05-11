@@ -1,0 +1,84 @@
+.divMain {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainText {
+    width: 30rem;
+    text-align: justify;
+}
+
+.mainText h1 {
+    font-size: 5rem;
+    justify-content: flex-start;
+    width: 20rem;
+}
+
+.mainText p {
+    font-size: 1.2rem;
+}
+
+.mainImg {
+    background-image: url('../../public/image-hero-desktop.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30rem;
+    height: 40rem;
+}
+
+
+@media (max-width: 950px) {
+    .divMain{
+        display: block;
+        width: 100%;
+    }
+    .mainText {
+        width: 25rem;
+        margin-bottom: 5rem;
+        text-align: center;
+        margin-left: 12%;
+    }
+
+    .mainText h1 {
+        font-size: 4rem;
+        text-align: center;
+        margin-left: 12%;
+
+    }
+
+    .mainImg {
+        background-image: url('../../public/image-hero-mobile.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 30rem;
+        height: 20rem;
+        text-align: center;
+        margin-left: 12%;
+    }
+    button{
+        background-color: #000;
+        color: #fff;
+    }
+    button:hover{
+        background-color: #000;
+        color: #fff;
+      }
+
+    @media (max-width: 570px) {
+        
+        .mainText
+         {
+            margin-left: 0%;
+            width: 22rem;
+        }
+        .mainText h1{
+            margin-left: 5%;
+        }
+        .mainImg{
+            margin-left: 5%;
+            width: 20rem;
+            height: 10rem;
+        }
+    }
+}

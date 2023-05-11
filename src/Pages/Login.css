@@ -1,0 +1,94 @@
+.containerLogin {
+    display: flex;
+    width: 90%;
+    margin-left: 9rem;
+    justify-content: space-between;
+}
+
+.asideImg {
+    background-image: url('../../public/image-hero-desktop.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 10rem;
+    height: 40rem;
+    margin-left: 2rem;
+}
+
+.loginPage {
+    display: flex;
+    flex-direction: column;
+    margin: 10% 10%;
+    align-items: center;
+    gap: 1rem;
+    background-color: #5B5BFF;
+    border-radius: 18px;
+    margin-left: 30%;
+    width: 30%;
+    height: 23rem;
+    padding-top: 5%;
+    color: #fff;
+}
+
+input {
+    border-radius: 18px;
+    border: 1px solid #fff;
+    padding: .5rem;
+    margin-left: .5rem;
+}
+
+.cadastroLink {
+    font-size: 12px;
+
+}
+
+.cadastroP {
+    color: #fff;
+    font-style: italic;
+}
+
+.submit {
+    box-sizing: border-box;
+    padding: .7rem;
+    width: 30%;
+    margin-top: 1rem;
+    background-color: black;
+    color: #fff;
+}
+
+Link {
+    color: white;
+}
+
+@media (min-width:600px) and (max-width: 950px) {
+    .loginPage {
+        width: 45%;
+        padding-top: 1rem;
+    }
+
+    .containerLogin {
+        display: block;
+        margin-left: 0;
+    }
+
+    .asideImg {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .loginPage {
+        width: 80%;
+        padding-top: 4rem;
+        margin: 9rem 3rem;
+    }
+
+    .containerLogin {
+        display: block;
+        margin-left: 0;
+        margin-right: 10%;
+    }
+
+    .asideImg {
+        display: none;
+    }
+}
