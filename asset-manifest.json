@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/%7Bnome-do-repositorio%7D/static/css/main.caaf422c.css",
-    "main.js": "/%7Bnome-do-repositorio%7D/static/js/main.3afb102a.js",
-    "static/js/787.66b477fd.chunk.js": "/%7Bnome-do-repositorio%7D/static/js/787.66b477fd.chunk.js",
-    "static/media/image-hero-desktop.png": "/%7Bnome-do-repositorio%7D/static/media/image-hero-desktop.50cc22fddeb0c072b414.png",
-    "static/media/image-hero-mobile.png": "/%7Bnome-do-repositorio%7D/static/media/image-hero-mobile.adefc8b1bbed2ca80470.png",
-    "index.html": "/%7Bnome-do-repositorio%7D/index.html",
-    "main.caaf422c.css.map": "/%7Bnome-do-repositorio%7D/static/css/main.caaf422c.css.map",
-    "main.3afb102a.js.map": "/%7Bnome-do-repositorio%7D/static/js/main.3afb102a.js.map",
-    "787.66b477fd.chunk.js.map": "/%7Bnome-do-repositorio%7D/static/js/787.66b477fd.chunk.js.map"
+    "main.css": "/landingPageReact/static/css/main.d3a48e6c.css",
+    "main.js": "/landingPageReact/static/js/main.d9c5eeaa.js",
+    "static/js/787.66b477fd.chunk.js": "/landingPageReact/static/js/787.66b477fd.chunk.js",
+    "static/media/image-hero-desktop.png": "/landingPageReact/static/media/image-hero-desktop.50cc22fddeb0c072b414.png",
+    "static/media/image-hero-mobile.png": "/landingPageReact/static/media/image-hero-mobile.adefc8b1bbed2ca80470.png",
+    "index.html": "/landingPageReact/index.html",
+    "main.d3a48e6c.css.map": "/landingPageReact/static/css/main.d3a48e6c.css.map",
+    "main.d9c5eeaa.js.map": "/landingPageReact/static/js/main.d9c5eeaa.js.map",
+    "787.66b477fd.chunk.js.map": "/landingPageReact/static/js/787.66b477fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.caaf422c.css",
-    "static/js/main.3afb102a.js"
+    "static/css/main.d3a48e6c.css",
+    "static/js/main.d9c5eeaa.js"
   ]
 }
